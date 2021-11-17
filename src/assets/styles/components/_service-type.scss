@@ -1,5 +1,8 @@
 // Service Type Specific Styles
 .service-types {
+  button {
+    border:solid 2px  var(--accent);  // Added by TD
+  }
   .service-type {
     border-radius: 20rem;
     background: var(--secondary);
@@ -90,7 +93,7 @@
 
   .title {
     font-size: 170rem;
-    color: var(--red)
+    color: var(--coral-red);  // Added by TD
   }
 
   .subtitle {

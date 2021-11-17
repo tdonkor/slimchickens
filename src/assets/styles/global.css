@@ -24,7 +24,7 @@
   --blue: #00b0f0;
   --purple: #c153cb;
   --green: #6bbe4e;
-  --accent: #cbe510;
+  --accent: #ff4040;
   --orange: #ee5b04;
   --shadow: #00000080;
   --tertiary: #252323;
@@ -38,6 +38,8 @@
   --stepper-gray-meter: #747474;
   --background-gray: #f4f4f4;
   --light-pink: #FFB6C1;
+  --early-dawn: #fff7e6;
+  --coral-red: #ff4040;
   --nav-slider-bg: var(--primary);
   --spinner-color: #898989;
   --box-shadow: 0 0 21rem 5rem rgba(204, 204, 204, 1);
@@ -75,8 +77,8 @@
 }
 .ui-button.secondary {
   background: var(--accent);
-  color: var(--primary);
-  border: none;
+  color: var(--secondary);
+  border: solid 1px var(--secondary);
 }
 .ui-button.color--tertiary {
   color: var(--tertiary);
@@ -3205,11 +3207,12 @@ h6 {
   justify-content: space-evenly;
   align-items: center;
   padding: 10rem 20rem;
+  background: var(--early-dawn);
 }
 .nav-slider .nav-slider-item__title {
   font-size: 28rem;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: var(--primary);
 }
 .nav-slider .nav-slider-item img {
   width: 100rem;
@@ -3217,10 +3220,10 @@ h6 {
 }
 .nav-slider .nav-slider-item.selected {
   position: relative;
-  background: var(--accent);
+  background: var(--primary);
 }
 .nav-slider .nav-slider-item.selected .nav-slider-item__title {
-  color: var(--primary);
+  color: var(--secondary);
 }
 .nav-slider.firstItemFixed .nav-slider__wrapper {
   position: relative;
@@ -3409,6 +3412,9 @@ h6 {
   --icon-secondary-color: var(--white);
 }
 
+.service-types button {
+  border: solid 2px var(--accent);
+}
 .service-types .service-type {
   border-radius: 20rem;
   background: var(--secondary);
@@ -3487,7 +3493,7 @@ h6 {
 }
 .welcome .title {
   font-size: 170rem;
-  color: var(--red);
+  color: var(--coral-red);
 }
 .welcome .subtitle {
   font-size: 54rem;

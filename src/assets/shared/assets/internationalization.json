@@ -155,9 +155,9 @@
 	},
 	{
 		"ID": "15",
-		"FR": "Point to start your order",
-		"EN": "Point to start your order",
-		"it": "Point to start your order",
+		"FR": "Touch To Order",
+		"EN": "Touch To Order",
+		"it": "Touch To Order",
 		"es": "",
 		"de": "",
 		"jp": "",
@@ -314,7 +314,7 @@
 	{
 		"ID": "29",
 		"FR": "suivez les instructions du terminal",
-		"EN": "segui le istruzioni del terminale",
+		"EN": "follow the instructions on the terminal",
 		"it": "",
 		"es": "",
 		"de": "",

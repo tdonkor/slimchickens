@@ -23,8 +23,8 @@
 
   &.secondary {
     background: var(--accent);
-    color: var(--primary);
-    border: none;
+    color: var(--secondary);  // Added by TD
+    border: solid 1px var(--secondary);
   }
 
   &.color--tertiary {
